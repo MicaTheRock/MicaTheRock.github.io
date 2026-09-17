@@ -16,7 +16,7 @@
       <button type="button" id="menuButton">≡</button>
       <div id="sideMenu">
         <hr>
-        <button type="button" id="changeColor">Change background :D</button>
+        <button type="button" id="changeColor">Toggle Lightmode</button>
         <hr>
         <div id="navigation">
           <a href="#about">About me</a>
@@ -32,7 +32,7 @@
         <p>My name is <b>Mica!</b><Br>I'm a 16-year-old programmer from <span style="color:red;">Poland</span>!</p>
         <p>I speak English and Polish fluently, and a little German</p>
         <p>Pronouns: She/Her</p>
-        <p>I'm <a href="https://lgbtqia.fandom.com/wiki/Transgender" class="Trans" target="_blank" rel="noopener noreferrer">Trans</a>, 
+        <p id="queer">I'm <a href="https://lgbtqia.fandom.com/wiki/Transgender" class="Trans" target="_blank" rel="noopener noreferrer">Trans</a>, 
           <a href="https://lgbtqia.fandom.com/wiki/Lesbian" class="Lesbian" target="blank" rel="noopener noreferrer">Lesbian</a>, and 
           <a href="https://lgbtqia.fandom.com/wiki/Aromantic_asexual" class="Aroace" target="_blank" rel="noopener noreferrer">AroAce</a>
         </p>
@@ -55,7 +55,6 @@
               <li>Hollow Knight</li>
               <li>Celeste</li>
               <li>Cyberpunk 2077</li>
-              <li>Project Zomboid</li>
             </ul>
           </div>
           <div class="interestBox" id="musicBox">
@@ -64,7 +63,6 @@
               <li>Nirvana</li>
               <li>Slipknot</li>
               <li>Deftones</li>
-              <li>Alice in Chains</li>
               <li>System of a Down</li>
               <li>Korn</li>
               <li>Radiohead</li>
@@ -83,8 +81,8 @@
               <li>Fred 3: Camp Fred</li>
               <li>The Princess Bride</li>
               <li>500 Days of Summer</li>
-              <li>Dexter (show)</li>
-              <li>Fight Club</li>
+              <li>Edward Scissorhands</li>
+              <li>The Perks of Being A Wallflower</li>
             </ul>
           </div>
           <div class="interestBox">
@@ -95,6 +93,7 @@
               <li>Vanilla JavaScript</li>
               <li>Visual Studio Code</li>
               <li>Github Pages</li>
+              <li><b>Currently learning:</b> PHP</li>
             </ul>
           </div>
         </div>
@@ -123,7 +122,7 @@
     </main>
 
     <footer>
-      <span style="color:white;">Actively being developed</span>
+        
     </footer>
 
 
@@ -133,11 +132,12 @@
       const menuButton = document.getElementById("menuButton")
       const panel = document.getElementById("panel")
       colorButton.onclick = function(){
-        body.classList.toggle("greenTheme")
+        body.classList.toggle("lightMode")
       }
         menuButton.onclick = function(){
           panel.classList.toggle("open");
         }
+      
     </script>
   </body>
 </html>

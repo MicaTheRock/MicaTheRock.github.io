@@ -1,16 +1,42 @@
-body.greenTheme {
-    background-image: url("images/bgGreen.png");
+body.lightMode {
+    background-image: url("images/starwhite.png");
 }
-body.greenTheme div.interestBox {
-    border-color: paleturquoise;
+body.lightMode div.interestBox {
+    border-color: lightgray;
 }
-body.greenTheme #panel #sideMenu {
-    background-color: mediumseagreen;
-    border-color: green;
+body.lightMode #panel #sideMenu {
+    background-color: white;
+    border-color: black;
 }
-body.greenTheme section {
-    border-color: paleturquoise;
+body.lightMode #panel #sideMenu a {
+    color: black
 }
-body.greenTheme #changeColor:hover {
-    background-color: blueviolet;
+body.lightMode section {
+    border-color: black;
+    color: black;
+    background-color: rgba(255,255,255,0.8);
+}
+
+body.lightMode #changeColor:hover {
+    background-color: white;
+}
+body.lightMode div.interestBox {
+    border: 3px dashed black;
+
+}
+
+
+#panel.open #sideMenu {
+    display: block;
+    border: 5px solid white;
+    background-color: black;
+    margin: 15px;
+    padding: 10px;
+}
+#changeColor:hover {
+    background-color: white;
+}
+
+section.section {
+    border-color: white;
 }

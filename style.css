@@ -3,7 +3,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-image: url("images/bgPurple.png");
+    background-image: url("images/star.png");
     background-repeat: repeat;
     background-position: center;
     font-family: 'Space Mono', monospace, inter, sans-serif;
@@ -18,9 +18,9 @@ body {
     display: block;
     margin: 0 auto;
     padding: 20px;
-    background-color: azure;
+    background-color: lightgray;
     border-width: 2px;
-    border-color: bisque;
+    border-color: black;
     cursor: pointer;
     
 }
@@ -28,7 +28,7 @@ section.section {
     width: 50%;
     margin: 0 auto;
     background-color: rgba(0,0,0,0.7);
-    border: 10px solid palevioletred;
+    border: 10px solid;
     padding: 15px;
     margin-top: 10px;
     color: white;
@@ -36,11 +36,11 @@ section.section {
     text-align: center;
 }
 a.Trans {
-    color:pink;
+    color: plum;
     text-decoration: none;
 }
 a.Trans:hover {
-    color: plum;
+    color: pink;
 }
 a.Lesbian {
     color: salmon;
@@ -59,7 +59,6 @@ a.Aroace:hover {
 #TransLesbianAroace {
     position: relative;
     width: 70%;
-    box-shadow: 5px 5px rgba(255,255,255,0.2);
 }
 #panel {
     position: fixed;
@@ -72,33 +71,21 @@ a.Aroace:hover {
     display: none;
     width: 65%
 }
-#panel.open #sideMenu {
-    display: block;
-    border: 5px solid mediumorchid;
-    background-color: mediumslateblue;
-    margin: 15px;
-    padding: 10px;
-}
+
 #menuButton {
     width: 9%;
     border-radius: 30px;
     cursor: pointer;
     font-size: 30px;
 }
-#changeColor:hover {
-    background-color: aquamarine;
-}
+
 #interestsLists {
     display:flex;
     flex-wrap: wrap;
     gap: 15px;
     justify-content: space-between;
 }
-div.interestBox {
-    width: 45%;
-    padding: 5px;
-    border: 3px dashed palevioletred;
-}
+
 div #musicBox li {
     font-size: smaller
 }
@@ -119,7 +106,11 @@ ul {
     border-radius: 60px;
     transform: scale(1.1)
 }
-
+div.interestBox {
+    width: 45%;
+    padding: 5px;
+    border: 3px dashed white;
+}
 
 
 
@@ -141,7 +132,7 @@ ul {
     }
     div.interestBox {
         font-size: 22px;
-        width: 85%;
+        width: 90%;
         padding: 0px;
         margin: auto;
     }
