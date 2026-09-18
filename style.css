@@ -7,9 +7,11 @@ body {
     background-repeat: repeat;
     background-position: center;
     font-family: 'Space Mono', monospace, inter, sans-serif;
+    transition: 2s;
 }
 #navigation a {
     color:white;
+    transition: 2s;
 }
 #navigation a:hover {
     color: lightgray;
@@ -22,6 +24,7 @@ body {
     border-width: 2px;
     border-color: black;
     cursor: pointer;
+    transition: 2s;
     
 }
 section.section {
@@ -34,6 +37,7 @@ section.section {
     color: white;
     font-size: xx-large;
     text-align: center;
+    transition: 2s;
 }
 a.Trans {
     color: plum;
@@ -110,6 +114,7 @@ div.interestBox {
     width: 45%;
     padding: 5px;
     border: 3px dashed white;
+    transition: 2s;
 }
 
 

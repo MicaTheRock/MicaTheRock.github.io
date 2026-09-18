@@ -1,20 +1,25 @@
 body.lightMode {
     background-image: url("images/starwhite.png");
+    transition: 2s;
 }
 body.lightMode div.interestBox {
     border-color: lightgray;
+    transition: 2s;
 }
 body.lightMode #panel #sideMenu {
     background-color: white;
     border-color: black;
+    transition: 2s;
 }
 body.lightMode #panel #sideMenu a {
-    color: black
+    color: black;
+    transition: 2s;
 }
 body.lightMode section {
     border-color: black;
     color: black;
     background-color: rgba(255,255,255,0.8);
+    transition: 2s;
 }
 
 body.lightMode #changeColor:hover {
@@ -22,6 +27,7 @@ body.lightMode #changeColor:hover {
 }
 body.lightMode div.interestBox {
     border: 3px dashed black;
+    transition: 2s;
 
 }
 
@@ -32,6 +38,7 @@ body.lightMode div.interestBox {
     background-color: black;
     margin: 15px;
     padding: 10px;
+    transition: 2s;
 }
 #changeColor:hover {
     background-color: white;
